@@ -1,0 +1,23 @@
+ *{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   /*
+    屏蔽浏览器默认行为：双击选中文字
+   */
+
+   -moz-user-select:none;
+ }
+ 
+ /*清除浮动方法*/
+ .clearfix:after{
+  content: "";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility: hidden;
+}
+
+.clearfix{
+  *zoom: 1;
+}
